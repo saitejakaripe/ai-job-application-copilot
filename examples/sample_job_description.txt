@@ -1,0 +1,6 @@
+Company: Northstar Robotics
+Role: AI Automation Engineer
+We are looking for an engineer to build Python FastAPI services with LangGraph workflows,
+SQLite persistence, Docker packaging, CI/CD automation, pytest coverage, and OpenAI or
+LLM provider extension points. Experience with observability and REST API design is valued.
+

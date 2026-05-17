@@ -1,0 +1,10 @@
+{
+  "candidate_name": "Avery Patel",
+  "role_title": "AI Automation Engineer",
+  "company_name": "Northstar Robotics",
+  "resume_text": "Avery Patel\nBackend automation engineer with 6 years of Python experience building FastAPI services, REST APIs, SQL data workflows, Docker deployments, pytest suites, GitHub Actions pipelines, and observability dashboards. Delivered production automation that saved 25 hours per week and improved incident response with structured logging and metrics.",
+  "job_description": "Company: Northstar Robotics\nRole: AI Automation Engineer\nWe are looking for an engineer to build Python FastAPI services with LangGraph workflows, SQLite persistence, Docker packaging, CI/CD automation, pytest coverage, and OpenAI or LLM provider extension points. Experience with observability and REST API design is valued.",
+  "persist": true,
+  "tags": ["backend", "ai-automation"]
+}
+

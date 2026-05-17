@@ -1,0 +1,6 @@
+Avery Patel
+Backend automation engineer with 6 years of Python experience building FastAPI services,
+REST APIs, SQL data workflows, Docker deployments, pytest suites, GitHub Actions pipelines,
+and observability dashboards. Delivered production automation that saved 25 hours per week
+and improved incident response with structured logging and metrics.
+
