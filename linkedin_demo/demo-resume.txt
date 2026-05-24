@@ -1,0 +1,5 @@
+Riya Sharma software developer with 3 years of experience building Python FastAPI services, React dashboards, TypeScript interfaces, SQL data models, Docker deployments, REST API integrations, GitHub Actions workflows, LLM prototypes, RAG search, prompt engineering tools and AI agent automation projects.
+
+Education: BTech Computer Science.
+
+Projects: built a resume matching platform using Python, React, SQL and OpenAI workflows.

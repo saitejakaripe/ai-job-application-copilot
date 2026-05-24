@@ -37,6 +37,37 @@ Open:
 - Docs: <http://localhost:8000/docs>
 - Health: <http://localhost:8000/health>
 
+## Job Recommendation Website
+
+The full-stack website analyzes a resume, collects candidate preferences, and recommends matching
+India and abroad remote jobs from a curated catalog plus trusted source links.
+
+Run the backend:
+
+```bash
+source .venv/bin/activate
+uvicorn ai_job_application_copilot.main:app --host 127.0.0.1 --port 8000
+```
+
+Run the frontend:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Open <http://127.0.0.1:5173>. If port 5173 is already busy, Vite will print the next local URL.
+
+Build the frontend and serve it from FastAPI:
+
+```bash
+cd frontend
+npm run build
+cd ..
+uvicorn ai_job_application_copilot.main:app --host 127.0.0.1 --port 8000
+```
+
 ## Example Request
 
 ```bash
@@ -93,4 +124,3 @@ See [docs/architecture.md](docs/architecture.md) for the full design.
 Keep the deterministic provider in tests so CI remains stable and free.
 
 See [docs/provider-extension.md](docs/provider-extension.md).
-

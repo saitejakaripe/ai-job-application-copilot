@@ -6,6 +6,7 @@ __pycache__/
 .coverage
 .env
 .mypy_cache/
+node_modules/
 .pytest_cache/
 .ruff_cache/
 .venv/
@@ -14,3 +15,5 @@ data/
 dist/
 htmlcov/
 *.egg-info/
+!src/ai_job_application_copilot/data/
+!src/ai_job_application_copilot/data/*.json

@@ -25,6 +25,7 @@ dependencies = [
     "langgraph>=0.2.60",
     "pydantic>=2.8.0",
     "pydantic-settings>=2.4.0",
+    "pypdf>=5.0.0",
     "python-multipart>=0.0.9",
     "uvicorn[standard]>=0.30.0",
 ]
@@ -51,6 +52,9 @@ Issues = "https://github.com/YOUR_GITHUB_USERNAME/ai-job-application-copilot/iss
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[tool.setuptools.package-data]
+ai_job_application_copilot = ["data/*.json"]
+
 [tool.pytest.ini_options]
 addopts = "-q --cov=ai_job_application_copilot --cov-report=term-missing"
 testpaths = ["tests"]
@@ -63,4 +67,3 @@ target-version = "py311"
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B", "SIM"]
 ignore = ["B008"]
-

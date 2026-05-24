@@ -13,7 +13,13 @@ class Settings(BaseSettings):
     llm_provider: str = "deterministic"
     openai_api_key: str | None = None
     openai_model: str = "gpt-4.1-mini"
-    cors_origins: list[str] = Field(default_factory=lambda: ["http://localhost:3000"])
+    cors_origins: list[str] = Field(
+        default_factory=lambda: [
+            "http://localhost:3000",
+            "http://localhost:5173",
+            "http://127.0.0.1:5173",
+        ]
+    )
 
     model_config = SettingsConfigDict(
         env_prefix="AI_COPILOT_",
@@ -26,4 +32,3 @@ class Settings(BaseSettings):
 @lru_cache
 def get_settings() -> Settings:
     return Settings()
-
